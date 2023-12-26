@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100dvh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+}
+.main {
+    height: 560px;
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px #222;
+    -moz-box-shadow: 10px 10px #222;
+    -webkit-box-shadow: 10px 10px #222;
+}
+.main__hero {
+    height: 45%;
+    background: url(./assets/images/illustration-article.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 15px;
+}
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+}
+.published {
+    margin-bottom: 15px;
+}
+.main__body--description {
+    color: hsl(0, 0%, 50%);
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.main__body--footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 15px;
+}
